@@ -1,0 +1,44 @@
+.NavbarItems {
+  background: linear-gradient(to right, rgb(235, 219, 241), rgb(245, 244, 246));
+  height: 70px;
+  text-align: right; 
+  margin-right: 40px;  
+  font-size: 1rem;
+}
+
+.nav-button {
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to right,
+    #684175 0%,
+    #85758d 51%,
+    #223581 100%
+  );
+  
+}
+.nav-button {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .NavbarItems {
+    position: relative;
+    grid-gap: 10%;
+    display: flex;
+  }
+  .nav-button {
+    width: 50%;
+    height: 100%;
+  }
+  .navbar-logo {
+    margin-top: 10px;
+    font-size: large;
+  }
+}

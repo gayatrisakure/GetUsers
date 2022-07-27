@@ -1,0 +1,37 @@
+.card {
+  margin: 20px;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 15px;
+  display: flex;
+  background: linear-gradient(to right, rgb(156, 46, 229), rgb(230, 95, 232));
+  cursor: pointer;
+}
+
+
+.card-img {
+  border-radius: 80px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 1000;
+  
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+}
